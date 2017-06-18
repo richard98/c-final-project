@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="15" tilewidth="40" tileheight="40">
+ <tileset firstgid="1" name="texture" tilewidth="40" tileheight="40">
+  <image source="texture.png" width="120" height="80"/>
+ </tileset>
+ <layer name="background" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYBzFo3gUDxgGAJDXAOI=
+  </data>
+ </layer>
+ <layer name="can_not_destroym" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDCQAAAOEAAE=
+  </data>
+ </layer>
+ <layer name="destroym" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFQwmwoWEQYEXDo2BoAQBRXAAt
+  </data>
+ </layer>
+</map>

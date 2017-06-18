@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="15" tilewidth="40" tileheight="40">
+ <tileset firstgid="1" name="floor" tilewidth="40" tileheight="40">
+  <image source="map_ice_tile2.png" width="40" height="40"/>
+ </tileset>
+ <tileset firstgid="2" name="item" tilewidth="40" tileheight="40">
+  <image source="map_ice_tile6.png" width="560" height="120"/>
+ </tileset>
+ <tileset firstgid="44" name="item60" tilewidth="40" tileheight="60">
+  <image source="map_ice_tile6.png" width="560" height="120"/>
+ </tileset>
+ <layer name="background" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYBzFo3gUDxgGAJDXAOI=
+  </data>
+ </layer>
+ <layer name="destroym" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJydU0EKwDAI82Me7Pb/N62whoUQR7eASNWotTbixjHl3NSKmjI2tXKAsXKP5gyby5VLn6KTYrQX5Ybcje1aN0kc2K91k2I6LjR4buZq62KcXWu7XsCr+NYz3qXIxrPiXXL+imdW/E5vQCxz2efu6/ZKc4bEdTvE+POPLjbbHr8=
+  </data>
+ </layer>
+ <layer name="can_not_destroym" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhYoEmBGAhYEzCfkDzMbE0sbGKAFZI+ZD4+YIPEZgNidiDmwCGPbg+yXSJALArEYmji6OqtoBjZXCUgVgZiFTR7YWqxmYEuhkscl1pCAJt65PiTAWJZPPLIAD0OtYBYmwh1AwEAdooItA==
+  </data>
+ </layer>
+</map>

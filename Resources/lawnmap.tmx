@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="15" tilewidth="40" tileheight="40">
+ <tileset firstgid="1" name="floor" tilewidth="40" tileheight="40">
+  <image source="map_flopy_tile2.png" width="120" height="40"/>
+ </tileset>
+ <tileset firstgid="4" name="item" tilewidth="40" tileheight="40">
+  <image source="can_not_destroy_block.png" width="320" height="80"/>
+ </tileset>
+ <tileset firstgid="20" name="itemboom" tilewidth="40" tileheight="79" spacing="1">
+  <image source="map_flopy_object1.png" width="698" height="79"/>
+ </tileset>
+ <tileset firstgid="37" name="item80" tilewidth="40" tileheight="80">
+  <image source="can_not_destroy_block.png" width="320" height="80"/>
+ </tileset>
+ <layer name="background" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYBxAzEQCpoVeZjx4VO/g0EvvtEFvDAC9DgGM
+  </data>
+ </layer>
+ <layer name="destroym" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJydkwsOgzAMQ3uIUiiwDdbd/4xkwpasKEUIS1YKyWv6gZROvc2b+XNj7LWaX+YFccU4ek8V8xTMNZorotcETtkiri7SPZb6wX7s+0brbo5tHe4r/IyotZxL8+T2dJ677idik9Rs4HzfK9b3pXgXumbuuQmjd1bkeUDMncj8KOvXnn/xTnmm1eUjlvmM+hkxC6cs9eR7pp78RwcK0Q9Q
+  </data>
+ </layer>
+ <layer name="can_not_destroym" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhYoArEalC2JpocjK8GVYcO1LCIYQP41CGbq45DHAY0iLQPlz5s+jmBmAuIuUmwDxYugkAsBMTCaOLEmoML4HMvsj2k2IctPPGJgwAl8auKQxxdHz776QUAQ/sFCg==
+  </data>
+ </layer>
+</map>
